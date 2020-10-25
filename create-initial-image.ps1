@@ -1,0 +1,1 @@
+qemu-img create -f qcow2 debian10.qcow2 8000M

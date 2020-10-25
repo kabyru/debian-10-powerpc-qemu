@@ -1,0 +1,1 @@
+sudo qemu-system-ppc -L pc-bios -boot c -prom-env "boot-device=hd:,\yaboot" -prom-env "boot-args=conf=hd:,\yaboot.conf"  -M mac99 -m 5120 -net nic,model=sungem -net user,hostfwd=tcp::10223-:22 -hda debian10.qcow2 -g 1024x768x32

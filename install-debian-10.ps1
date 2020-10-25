@@ -1,0 +1,1 @@
+qemu-system-ppc -L pc-bios -boot d -M mac99 -m 1024 -net nic,model=sungem -net user -hda debian10.qcow2 -cdrom ./debian-10.0-powerpc-NETINST-1.iso -g 1024x768x8
